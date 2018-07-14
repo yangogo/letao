@@ -1,0 +1,27 @@
+.nav {
+  padding: 10px;
+}
+.nav li {
+  float: left;
+  width: 33.33%;
+}
+.nav li a {
+  display: block;
+}
+.product {
+  padding: 10px;
+}
+.product .pd_time {
+  float: left;
+  width: 48%;
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+  margin-top: 15px;
+}
+.product .pd_time .price {
+  color: red;
+}
+.product .pd_time:nth-child(2n) {
+  margin-left: 4%;
+}
